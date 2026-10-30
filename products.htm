@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Store - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Name: Tanvir Ahmed Tushar, ID: 2022522 -->
+
+    <header>
+        <h1>Our Products</h1>
+    </header>
+
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="container">
+        <!-- Requirement 4: 2 Paragraphs -->
+        <p>Browse through our exclusive collection of premium gadgets. We guarantee 100% authentic products with official warranties. Add your favorite items to the cart and enjoy seamless checkout.</p>
+        
+        <!-- Requirement 5: Grid CSS -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <!-- Requirement 4: Image 1 -->
+                <img src="https://via.placeholder.com/300x200?text=Gaming+Headset" alt="Headset">
+                <h3>Gaming Headset</h3>
+                <p>Price: $50</p>
+                <!-- Requirement 6: Button 2 with onclick JS -->
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+            
+            <div class="grid-item">
+                <!-- Requirement 4: Image 2 -->
+                <img src="https://via.placeholder.com/300x200?text=Smart+Watch" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p>Price: $120</p>
+                <!-- Requirement 6: Button 2 with onclick JS -->
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+
+        <p>If you don't find what you are looking for, please visit our store or contact our support team. We restock our inventory every week!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Tech Store. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Button -->
+    <script>
+        function addToCart() {
+            alert("Item successfully added to your shopping cart!");
+        }
+    </script>
+</body>
+</html>

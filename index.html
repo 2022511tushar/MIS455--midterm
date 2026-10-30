@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Store - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tanvir Ahmed Tushar, ID: 2022511 -->
+
+    <header>
+        <h1>Welcome to Tech Store</h1>
+    </header>
+
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="container">
+        <h2> One-Stop Gadget Shop</h2>
+        
+        <p>Welcome to the ultimate destination for tech enthusiasts. We offer the best gadgets, laptops, and accessories at unbeatable prices. Our mission is to provide high-quality products to make your daily life easier and more productive.</p>
+        <p>Check out our latest arrivals below. Don't forget to subscribe to our newsletter for exclusive discounts and daily tech news. We deliver all over the country!</p>
+
+        <!-- Requirement 5: Flex CSS -->
+        <div class="flex-container">
+            <div class="flex-box">
+                <!-- Requirement 4: Image 1 -->
+                <img src="https://via.placeholder.com/400x200?text=Latest+Laptops" alt="Laptops">
+                <h3>Laptops</h3>
+            </div>
+            <div class="flex-box">
+                <!-- Requirement 4: Image 2 -->
+                <img src="https://via.placeholder.com/400x200?text=Smart+Phones" alt="Phones">
+                <h3>Smartphones</h3>
+            </div>
+        </div>
+        <br>
+        <!-- Requirement 6: Button 1 with onclick JS -->
+        <div style="text-align: center;">
+            <button class="btn" onclick="subscribeAlert()">Subscribe to Newsletter</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Tech Store. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Button -->
+    <script>
+        function subscribeAlert() {
+            alert("Thank you for subscribing to Tech Store!");
+        }
+    </script>
+</body>
+</html>
